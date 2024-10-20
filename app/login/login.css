@@ -1,0 +1,45 @@
+.body{
+    height: 97vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+.flex-container{
+    height:95vh;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-container{
+    height: 561px;
+    width: 380.31px;
+    border: 1px solid blue;
+    margin-right: 0.5vw;
+}
+.left-container img{
+    height:550px;
+    width:380px;
+    margin-top: 6%;
+    z-index: 2;
+}
+.mobile-photo{
+    height:472.5px;
+    width:211.5px;
+    margin-top: -140%;
+    margin-left: 123.5px;
+    z-index: 1;
+}
+.mobile-photo img{
+    height: 472.5px;
+    width: 100%;
+    margin-top: -0%;
+}
+.right-container{
+    height:557.43px;
+    width: 349.99px;
+    border: 1px solid green;
+}
