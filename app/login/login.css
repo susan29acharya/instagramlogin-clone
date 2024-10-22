@@ -17,13 +17,11 @@
 .left-container{
     height: 561px;
     width: 380.31px;
-    border: 1px solid blue;
-    margin-right: 0.5vw;
 }
 .left-container img{
     height:550px;
     width:380px;
-    margin-top: 6%;
+    margin-top: 3%;
     z-index: 2;
 }
 .mobile-photo{
@@ -41,5 +39,86 @@
 .right-container{
     height:557.43px;
     width: 349.99px;
-    border: 1px solid green;
+}
+.form{
+    height: 360px;
+    width: 90%;
+    border: 1px solid rgba(128, 128, 128, 0.575);
+    margin-top: 5%;
+}
+.insta-logo{
+    height: 8vh;
+    width: 50%;
+    margin: 15% 25% 0% 25%;
+}
+.insta-logo img{
+    height: 8vh;
+    width: 100%;
+}
+form{
+    margin: 10% 12% 0% 12%;
+}
+form input {
+    height: 5vh;
+    width: 95.5%;
+    margin-bottom: 2%;
+    background-color: #FAFAFA;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 0px 5px 0px 5px;
+}
+form input::placeholder{
+    font-size: 10.4px;
+    padding: 0px 5px 0px 5px;
+}
+form button{
+    height: 4.7vh;
+    width: 100%;
+    margin-top: 3%;
+    background-color: #4CB5F9;
+    border-radius: 7px;
+    border: transparent;
+    color: white;
+    font-weight: bold;
+}
+.or{
+    height: 3vh;
+    width: 100%;
+    display: flex;
+    margin-top: 6.2%;
+    justify-content: center;
+    align-items: center;
+}
+.or h5{
+    color:#737373;
+    margin:0% 6% 0% 6%;
+}
+span{
+    flex: 1; 
+    border-bottom: 1px solid #777573;
+}
+.fbsection{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9%;
+}
+.fbsection img{
+    height: 2.5vh;
+    width: 6%;
+}
+.fbsection p{
+    font-size: 14px;
+    padding-left: 3%;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    color: #385185;
+}
+form p{
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    color:rgba(0, 0, 0, 0.872);
 }
