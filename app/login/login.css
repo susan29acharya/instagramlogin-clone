@@ -4,12 +4,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
 }
 .flex-container{
     height:95vh;
     width: 100%;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,7 +42,7 @@
     height: 360px;
     width: 90%;
     border: 1px solid rgba(128, 128, 128, 0.575);
-    margin-top: 5%;
+    margin-top: 8%;
 }
 .insta-logo{
     height: 8vh;
@@ -121,4 +119,48 @@ form p{
     font-size: 12px;
     letter-spacing: 0.2px;
     color:rgba(0, 0, 0, 0.872);
+}
+.dont-ac{
+    height: 7.5vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.575);
+}
+
+.dont-ac p{
+    font-size: 14px;
+    padding-right: 5px;
+}
+.dont-ac a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #0095F6;
+}
+.get-app{
+    height: 5vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5%;
+}
+.get-app p{
+    text-align: center;
+    font-size: 14px;
+}
+.get-app-img{
+    height: 5vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+.get-app-img img{
+    height: 5vh;
+    width: 30%;
+    margin-left: 7px;
 }

@@ -20,33 +20,48 @@ const Login = () => {
           </div>
 
           <div className="right-container">
-            <div className="form">
-              <div className="insta-logo">
-                <img src="instagram-word.png" />
+            <div className="right-container">
+              <div className="form">
+                <div className="insta-logo">
+                  <img src="instagram-word.png" />
+                </div>
+
+                <form>
+                  <input
+                    type="text"
+                    placeholder="phone number, username, or email"
+                  />
+                  <br />
+                  <input type="password" placeholder="password" />
+
+                  <button>Log in</button>
+
+                  <div className="or">
+                    <span></span>
+                    <h5>OR</h5>
+                    <span></span>
+                  </div>
+
+                  <div className="fbsection">
+                    <img src="fblogo.png" />
+                    <p>Log in with Facebook</p>
+                  </div>
+                  <p>Forgot password?</p>
+                </form>
               </div>
 
-              <form>
-                <input
-                  type="text"
-                  placeholder="phone number, username, or email"
-                />
-                <br />
-                <input type="password" placeholder="password" />
+              <div className="dont-ac">
+                <p>Don't have an account?</p>
+                <a href="#">Sign up</a>
+              </div>
+              <div className="get-app">
+                <p>Get the app.</p>
+              </div>
 
-                <button>Log in</button>
-
-                <div className="or">
-                  <span></span>
-                  <h5>OR</h5>
-                  <span></span>
-                </div>
-
-                <div className="fbsection">
-                  <img src="fblogo.png" />
-                  <p>Log in with Facebook</p>
-                </div>
-                <p>Forgot password?</p>
-              </form>
+              <div className="get-app-img">
+                <img src="googleplay.png" />
+                <img src="microsoft.png" />
+              </div>
             </div>
           </div>
         </div>
